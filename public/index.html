@@ -14,12 +14,12 @@
     
     <div class="relative z-10 flex flex-col h-full">
         <div class="top flex justify-between px-5 pt-2">
-            <div class="topLeft text-red-600">
-                <h3 class="text-3xl font-bold">Netflix</h3>
+            <div class="topLeft w-36 mt-1">
+                <img src="netflixLogo.png" alt="logo">
             </div>
-            <div class="topRight text-white mt-2 flex space-x-2">
-                <button class="border-2 border-white px-6 py-1" type="button">English</button>
-                <button class="bg-red-600 px-3 py-1 rounded hover:bg-red-700" type="button">Sign In</button>
+            <div class="topRight text-white mt-1 flex space-x-2 items-center">
+                <button class="border-2 border-white px-10 py-1 h-10" type="button">English</button>
+                <button class="bg-red-600 px-3 py-1 rounded hover:bg-red-700 h-10" type="button">Sign In</button>
             </div>
         </div>
         <div class="main flex flex-col justify-center items-center text-white text-center  mt-44">
@@ -34,7 +34,7 @@
             </div>
             <form action="your-login-endpoint" method="POST" class="flex">
                 <input type="email" id="email" name="email" placeholder="Email address" required
-                    class="py-3 px-3 mb-4 border bg-white placeholder-gray-400 text-black w-96 h-12">
+                    class="py-3 px-3 bg-white placeholder-gray-400 text-black h-12 w-96">
                 <button type="submit" class="py-3 px-3 mb-4 bg-red-600 text-white w-32 h-12 hover:bg-red-700">
                     Get started
                 </button>

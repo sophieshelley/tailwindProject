@@ -1,0 +1,17 @@
+[33mcommit ef49d82b6c7196ee68d7eeca096b1fa27277fbc0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Sophie Shelley <sophiashelley17@gmail.com>
+Date:   Mon Sep 16 11:27:19 2024 -0600
+
+    added background image with a translucent black overlay on top
+
+[33mcommit b35e4742ec336853f1e16cf4c66ba8b62eb9d368[m
+Author: Sophie Shelley <sophiashelley17@gmail.com>
+Date:   Mon Sep 16 09:54:54 2024 -0600
+
+    fixed all margins and fixed all buttons. Added some bolding to make the page look more like design.
+
+[33mcommit 7a5cacf636810c3d2d0a5ca5a3f5bfd6a607167f[m
+Author: Sophie Shelley <sophiashelley17@gmail.com>
+Date:   Mon Sep 16 08:33:03 2024 -0600
+
+    made general layout of netflix page. Started adding color and adjusted some of the margins and padding.

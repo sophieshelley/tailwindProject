@@ -7,34 +7,50 @@
     <title>Tailwind CSS Project</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+       
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .bg-netflixBackground {
+            background-image: url('/netflix-background-1024x576.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; 
+        }
+    </style>
 </head>
 
 <body>
-    <div class="wholePage bg-neutral-950">
-        <div class="top flex justify-between">
+    <div class="wholePage bg-netlflixBackground bg-cover bg-no-repeat bg-gray-950">
+        <div class="top flex justify-between px-5 pt-2">
             <div class="topLeft text-red-600">
-                <h3 class="netflix">Netflix</h3>
+                <h3 class="netflix text-3xl font-bold">Netflix</h3>
             </div>
-            <div class="topRight  text-white">
-                <button class="english" type="button">English</button>
-                <button class="signIn" type="button">Sign In</button>
+            <div class="topRight  text-white mt-2">
+                <button class="english border-2 border-white px-6 py-1 mr-1" type="button">English</button>
+                <button class="signIn bg-red-600 px-3 py-1 rounded" type="button">Sign In</button>
             </div>
         </div>
-        <div class="main w-full h-full mt-44 font-bold text-white">
-            <div class="flex justify-center items-center text-5xl">
+        <div class="main w-full h-full mt-44 text-white">
+            <div class="flex justify-center items-center text-5xl font-bold">
                 <h1>Unlimited Movies, TV Shows, and More.</h1>
             </div>
-            <div class="flex justify-center items-center mt-3 text-lg">
+            <div class="flex justify-center items-center mt-3 text-lg font-bold">
                 <h4>Watch anywhere. Cancel anytime.</h4>
             </div>
-            <div class="flex justify-center items-center mt-4 text-lg">
+            <div class="flex justify-center items-center mt-4 text-lg font-bold">
                 <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
             </div>
             <div class="flex justify-center items-center">
                 <form action="your-login-endpoint" method="POST">
                     <input type="email" id="email" name="email" placeholder="Email address" required
-                        class="py-3 mb-4 border bg-white text-white placeholder-gray-400 mx-0">
-                    <button type="submit" class="py-3 bg-red-600 text-white  hover:bg-red-700 mx-0">
+                        class="py-3 px-3 mb-4 border bg-white placeholder-gray-400 mx-0 mt-4 w-96 h-12 text-black">
+                    <button type="submit" class="py-3 px-3 mb-4 bg-red-600 text-white mx-0 mt-4 w-32 h-12">
                         Get started
                     </button>
                 </form>

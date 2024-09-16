@@ -2,8 +2,11 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'netflixBackground': "url('/netflix-background-1024x576.jpg')"
+      }
+    },
   },
   plugins: [],
 }
-

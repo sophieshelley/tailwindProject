@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wholePage bg-neutral-950">
+        <div class="top flex justify-between">
+            <div class="topLeft text-red-600">
+                <h3 class="netflix">Netflix</h3>
+            </div>
+            <div class="topRight  text-white">
+                <button class="english" type="button">English</button>
+                <button class="signIn" type="button">Sign In</button>
+            </div>
+        </div>
+        <div class="main w-full h-full mt-44 font-bold text-white">
+            <div class="flex justify-center items-center text-5xl">
+                <h1>Unlimited Movies, TV Shows, and More.</h1>
+            </div>
+            <div class="flex justify-center items-center mt-3 text-lg">
+                <h4>Watch anywhere. Cancel anytime.</h4>
+            </div>
+            <div class="flex justify-center items-center mt-4 text-lg">
+                <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            </div>
+            <div class="flex justify-center items-center">
+                <form action="your-login-endpoint" method="POST">
+                    <input type="email" id="email" name="email" placeholder="Email address" required
+                        class="py-3 mb-4 border bg-white text-white placeholder-gray-400 mx-0">
+                    <button type="submit" class="py-3 bg-red-600 text-white  hover:bg-red-700 mx-0">
+                        Get started
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
